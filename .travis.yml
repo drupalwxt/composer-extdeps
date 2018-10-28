@@ -1,0 +1,14 @@
+language: minimal
+sudo: required
+
+script:
+  - docker run -v $(pwd):/repo zachomedia/composerrepo -c /repo/config.yml generate
+
+deploy:
+  provider: pages
+  local-dir: public
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master

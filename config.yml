@@ -1,0 +1,115 @@
+providers: true
+output:
+  type: file
+  dir: /repo/public
+inputs:
+  extdep:
+    type: static
+    packages:
+      w8tcha/ckeditor-codemirror:
+        v1.16:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/w8tcha/CKEditor-CodeMirror-Plugin/archive/1.16.tar.gz
+          source:
+            type: git
+            url: https://github.com/w8tcha/CKEditor-CodeMirror-Plugin.git
+            reference: '1.16'
+      wet-boew/wet-boew:
+        v4.0.27:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/wet-boew-cdn/archive/v4.0.27.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/wet-boew-cdn.git
+            reference: v4.0.27
+        v4.0.28.1:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/wet-boew-cdn/archive/v4.0.28.1.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/wet-boew-cdn.git
+            reference: v4.0.28.1
+      wet-boew/theme-wet-boew:
+        v4.0.27:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/themes-cdn/archive/v4.0.27-theme-wet-boew.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/themes-cdn.git
+            reference: v4.0.27-theme-wet-boew
+        v4.0.28.1:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/themes-cdn/archive/v4.0.28.1-theme-wet-boew.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/themes-cdn.git
+            reference: v4.0.28.1-theme-wet-boew
+      wet-boew/theme-base:
+        v4.0.27:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/themes-cdn/archive/v4.0.27-theme-base.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/themes-cdn.git
+            reference: v4.0.27-theme-base
+      wet-boew/theme-gc-intranet:
+        v4.0.27:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/themes-cdn/archive/v4.0.27-theme-gc-intranet.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/themes-cdn.git
+            reference: v4.0.27-theme-gc-intranet
+      wet-boew/theme-gcwu-fegc:
+        v4.0.27:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/themes-cdn/archive/v4.0.27-theme-gcwu-fegc.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/themes-cdn.git
+            reference: v4.0.27-theme-gcwu-fegc
+      wet-boew/theme-gcweb:
+        v4.0.27:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/themes-cdn/archive/v4.0.27-theme-gcweb.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/themes-cdn.git
+            reference: v4.0.27-gcweb
+        v4.0.28.1:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/themes-cdn/archive/v4.0.28.1-gcweb.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/themes-cdn.git
+            reference: v4.0.28.1-gcweb
+      wet-boew/theme-ogpl:
+        v4.0.27:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/themes-cdn/archive/v4.0.27-theme-ogpl.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/themes-cdn.git
+            reference: v4.0.27-theme-ogpl
