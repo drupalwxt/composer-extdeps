@@ -2,6 +2,7 @@ providers: true
 output:
   type: file
   dir: /repo/public
+  basePath: '/composer-extdeps'
 inputs:
   extdep:
     type: static

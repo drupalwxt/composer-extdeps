@@ -6,11 +6,11 @@ This project is a Composer Repository generator for external dependencies of [Dr
 
 Merge the following JSON to your project's `composer.json` file:
 
-```json
+```js
 {
    "repositories": [
       "type": "composer",
-      "url": "https://TBD"
+      "url": "https://drupalwxt.github.io/composer-extdeps/"
    ]
 }
 ```
