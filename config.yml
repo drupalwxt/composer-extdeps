@@ -49,7 +49,7 @@ inputs:
           type: drupal-library
           dist:
             type: tar
-            url: https://github.com/drupalwxt/themes-dist/releases/download/v4.0.30-gcweb/wet-boew.tgz
+            url: https://github.com/drupalwxt/themes-dist/releases/download/v4.0.30-gcweb/wet-boew.tar.gz
           source:
             type: git
             url: https://github.com/drupalwxt/themes-dist.git
@@ -144,7 +144,7 @@ inputs:
           type: drupal-library
           dist:
             type: tar
-            url: https://github.com/drupalwxt/themes-dist/releases/download/v4.0.30-gcweb/gcweb.tgz
+            url: https://github.com/drupalwxt/themes-dist/releases/download/v4.0.30-gcweb/gcweb.tar.gz
           source:
             type: git
             url: https://github.com/drupalwxt/themes-dist.git
