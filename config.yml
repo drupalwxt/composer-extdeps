@@ -113,6 +113,16 @@ inputs:
             url: https://github.com/wet-boew/themes-cdn.git
             reference: v4.0.27-theme-gcwu-fegc
       wet-boew/theme-gcweb:
+        v5.0.1:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/themes-cdn/archive/v5.0.1-gcweb.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/themes-cdn.git
+            reference: v5.0.1-gcweb
+      wet-boew/theme-gcweb-legacy:
         v4.0.27:
           type: drupal-library
           dist:
@@ -140,24 +150,6 @@ inputs:
             type: git
             url: https://github.com/wet-boew/themes-cdn.git
             reference: v4.0.29-gcweb
-        v4.0.30:
-          type: drupal-library
-          dist:
-            type: tar
-            url: https://github.com/drupalwxt/themes-dist/releases/download/v4.0.30-gcweb/gcweb.tar.gz
-          source:
-            type: git
-            url: https://github.com/drupalwxt/themes-dist.git
-            reference: v4.0.30
-        v5.0.1:
-          type: drupal-library
-          dist:
-            type: tar
-            url: https://github.com/wet-boew/themes-cdn/archive/v5.0.1-gcweb.tar.gz
-          source:
-            type: git
-            url: https://github.com/wet-boew/themes-cdn.git
-            reference: v5.0.1-gcweb
       wet-boew/theme-ogpl:
         v4.0.27:
           type: drupal-library
