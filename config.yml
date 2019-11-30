@@ -54,6 +54,24 @@ inputs:
             type: git
             url: https://github.com/wet-boew/wet-boew-cdn.git
             reference: v4.0.30
+        v4.0.31:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/wet-boew-cdn/archive/v4.0.31.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/wet-boew-cdn.git
+            reference: v4.0.31
+        v4.0.32:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/wet-boew-cdn/archive/v4.0.32.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/wet-boew-cdn.git
+            reference: v4.0.32
       wet-boew/theme-wet-boew:
         v4.0.27:
           type: drupal-library
@@ -82,6 +100,33 @@ inputs:
             type: git
             url: https://github.com/wet-boew/themes-cdn.git
             reference: v4.0.29-theme-wet-boew
+        v4.0.30:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/themes-cdn/archive/v4.0.30-theme-wet-boew.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/themes-cdn.git
+            reference: v4.0.30-theme-wet-boew
+        v4.0.31:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/themes-cdn/archive/v4.0.31-theme-wet-boew.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/themes-cdn.git
+            reference: v4.0.31-theme-wet-boew
+        v4.0.32:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/themes-cdn/archive/v4.0.32-theme-wet-boew.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/themes-cdn.git
+            reference: v4.0.32-theme-wet-boew
       wet-boew/theme-base:
         v4.0.27:
           type: drupal-library
@@ -158,6 +203,24 @@ inputs:
             type: git
             url: https://github.com/wet-boew/themes-cdn.git
             reference: v5.0.1-gcweb
+        v5.1.0:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/themes-cdn/archive/v5.1-gcweb.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/themes-cdn.git
+            reference: v5.1-gcweb
+        v6.0.0:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/themes-cdn/archive/v6.0-gcweb.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/themes-cdn.git
+            reference: v6.0-gcweb
       wet-boew/theme-gcweb-legacy:
         v4.0.27:
           type: drupal-library
