@@ -318,6 +318,16 @@ inputs:
             url: https://github.com/wet-boew/themes-cdn.git
             reference: v4.0.27-theme-base
       wet-boew/theme-gc-intranet:
+        v4.0.43:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/drupalwxt/themes-cdn/archive/v4.0.43-theme-gc-intranet.tar.gz
+          source:
+            type: git
+            url: https://github.com/drupalwxt/themes-cdn.git
+            reference: v4.0.43-theme-gc-intranet
+      wet-boew/theme-gc-intranet-legacy:
         v4.0.27:
           type: drupal-library
           dist:
