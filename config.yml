@@ -7,6 +7,12 @@ inputs:
   extdep:
     type: static
     packages:
+      ckeditor/fakeobjects:
+        v4.16.2:
+          type: drupal-library
+          dist:
+            type: zip
+            url: https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.16.2.zip
       w8tcha/ckeditor-codemirror:
         v1.16:
           type: drupal-library
