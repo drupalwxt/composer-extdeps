@@ -606,12 +606,24 @@ inputs:
             type: git
             url: https://github.com/wet-boew/themes-cdn.git
             reference: v4.0.27-theme-ogpl
+      drupaloverrides/lightning_core:
+        5.x-dev:
+          type: drupal-module
+          dist:
+            type: zip
+            url: https://git.drupalcode.org/api/v4/projects/project%2Flightning_core/repository/archive.zip?sha=8.x-5.x
       drupaloverrides/lightning_layout:
         2.x-dev:
           type: drupal-module
           dist:
             type: zip
             url: https://git.drupalcode.org/api/v4/projects/project%2Flightning_layout/repository/archive.zip?sha=8.x-2.x
+      drupaloverrides/lightning_media:
+        4.x-dev:
+          type: drupal-module
+          dist:
+            type: zip
+            url: https://git.drupalcode.org/api/v4/projects/project%2Flightning_media/repository/archive.zip?sha=8.x-4.x
       drupaloverrides/lightning_workflow:
         3.x-dev:
           type: drupal-module
