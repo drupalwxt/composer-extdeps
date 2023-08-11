@@ -28,6 +28,15 @@ inputs:
             type: git
             url: https://github.com/w8tcha/CKEditor-CodeMirror-Plugin.git
             reference: '1.16'
+        v1.17.11:
+          type: drupal-library
+          dist:
+            type: zip
+            url: https://github.com/w8tcha/CKEditor-CodeMirror-Plugin/releases/download/v1.17.11/CKEditor-CodeMirror-Plugin.zip
+          source:
+            type: git
+            url: https://github.com/w8tcha/CKEditor-CodeMirror-Plugin.git
+            reference: '1.17.11'
       wet-boew/wet-boew:
         v4.0.27:
           type: drupal-library
