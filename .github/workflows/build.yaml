@@ -1,0 +1,22 @@
+name: build
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Generate the Composer manifest(s)
+      run: |
+        docker run --rm -v $(pwd):/repo zachomedia/composerrepo:v2 -c /repo/config.yml generate
+
+    - name: Deploy to gh-pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
+        keep_files: true
