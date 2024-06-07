@@ -696,6 +696,15 @@ inputs:
             type: git
             url: https://github.com/wet-boew/themes-cdn.git
             reference: v14.5.0-gcweb
+        v15.2.0:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://github.com/wet-boew/themes-cdn/archive/v15.2.0-gcweb.tar.gz
+          source:
+            type: git
+            url: https://github.com/wet-boew/themes-cdn.git
+            reference: v15.2.0-gcweb
       wet-boew/theme-gcweb-legacy:
         v4.0.27:
           type: drupal-library
