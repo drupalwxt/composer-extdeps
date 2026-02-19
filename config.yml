@@ -30,6 +30,11 @@ inputs:
           dist:
             type: tar
             url: https://registry.npmjs.org/codemirror/-/codemirror-5.65.8.tgz
+        v5.65.21:
+          type: drupal-library
+          dist:
+            type: tar
+            url: https://registry.npmjs.org/codemirror/-/codemirror-5.65.21.tgz
       w8tcha/ckeditor-codemirror:
         v1.16:
           type: drupal-library
