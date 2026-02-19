@@ -234,7 +234,7 @@ inputs:
           type: drupal-library
           dist:
             type: tar
-            url: https://github.com/wet-boew/wet-boew-cdn/archive/v4.0.4.tar.gz
+            url: https://github.com/wet-boew/wet-boew-cdn/archive/v4.0.44.tar.gz
           source:
             type: git
             url: https://github.com/wet-boew/wet-boew-cdn.git
